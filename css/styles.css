@@ -1,0 +1,123 @@
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+}
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;  /* This will keep the h1 at center and give the required margin on top too */
+  font-family: "Sacramento",cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3 {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin:0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514E;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position:absolute;
+  left: 300px;
+  bottom: 300px;
+}
+a {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;  /* This will make all the text inside the tag on which skill-row class is applied get align to the left */
+}
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.pen {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+hr {
+  border: dotted #EAF6F6 6px;
+  width: 4%;
+  margin: 100px auto; /* Top and bottom should be 100 pixels and it should be at center */
+  border-bottom: none;
+}
+.middle-container {
+  margin: 100px 0;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.pro {
+  text-decoration: underline;
+}
+p {
+  line-height: 2;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+   background: #11cdd4;
+   background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+   background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+   background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+   background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11cdd4, #11999E);
+   -webkit-border-radius: 8;
+   -moz-border-radius: 8;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: "Montserrat", sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+}
+
+.btn:hover {    /* Means ek btn naam ka class hai uska uska ek subclass bna do jo hover krne pr activate hoga */
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   text-decoration: none;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px; /* To remove margin at bottom which is by default 16px, a bottom padding of 20px should be more than enough to cover it without placing the copyright message at the absolute bottom */
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
